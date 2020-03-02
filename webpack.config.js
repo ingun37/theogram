@@ -17,6 +17,8 @@ module.exports = {
         extensions: ['.ts', '.js'],
     },
     output: {
+        library: "theograms",
         filename: 'bundle.js',
     },
+    
 };

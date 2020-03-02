@@ -1,0 +1,13 @@
+{
+    "objects": {
+        "A": {
+            "content": "A"
+        },
+        "B": {
+            "content": "B"
+        }
+    },
+    "arrows": {
+        "AB": {"from":"A", "to":"B"}
+    }
+}

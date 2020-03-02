@@ -1,9 +1,10 @@
-function component() {
-    const element = document.createElement('div');
-
-    element.innerHTML = " type script _.join(['Hello', 'webpack'], ' ');"
-
-    return element;
+export function renderTheograms(containerId:string) {
+    let container = document.getElementById(containerId);
+    if (container) {
+        const element = document.createElement('div');
+    
+        element.innerHTML = " generated div";
+    
+        container.appendChild(element);
+    }
 }
-
-document.body.appendChild(component());
